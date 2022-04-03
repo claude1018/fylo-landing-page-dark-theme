@@ -1,0 +1,26 @@
+.container {
+  @apply bg-intro-email rounded mx-[1rem] px-5 mb-8 flex flex-col justify-center items-center relative top-52 md:w-[53.625rem] md:top-36 py-12;
+  & .email {
+    @apply w-full;
+    & .error {
+      @apply text-error text-xs mx-[1.5rem] hidden pt-4;
+    }
+  }
+
+  & .title {
+    @apply text-white font-headings font-bold text-lg mb-3 md:text-[2rem] pb-3;
+  }
+  & p {
+    @apply text-white font-sans font-normal text-center mb-3 pb-3;
+  }
+  & form {
+    @apply block md:flex w-full md:gap-5;
+
+    & input[type='email'] {
+      @apply w-full h-[2.625rem]  py-5 px-7 rounded-full text-sm font-sans md:py-0;
+    }
+    & input[type='submit'] {
+      @apply bg-custom-blue w-full h-[2.75rem] text-white rounded-[1.375rem] font-bold text-sm my-5 font-headings md:w-[25rem] md:my-0 hover:bg-custom-cyan;
+    }
+  }
+}

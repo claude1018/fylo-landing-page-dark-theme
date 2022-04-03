@@ -1,0 +1,10 @@
+.container {
+  @apply flex flex-col items-center justify-center py-4 px-8 my-5 mx-0;
+
+  & .title {
+    @apply font-headings text-white font-bold py-2 pt-5;
+  }
+  & .description {
+    @apply font-sans text-white font-normal text-[15px] text-center py-1;
+  }
+}

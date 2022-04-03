@@ -1,0 +1,14 @@
+.grid-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19.375rem, 25rem));
+  grid-auto-rows: minmax(13.75rem, 17.1875rem);
+  row-gap: 1rem;
+}
+
+.grid-testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15.9375rem, 22.125rem));
+  grid-auto-rows: minmax(8.75rem, 12.25rem);
+  row-gap: 1rem;
+  column-gap: 3rem;
+}

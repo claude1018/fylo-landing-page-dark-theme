@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+
+html {
+  @apply box-border;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  @apply h-screen font-body bg-main;
+}
+
+.headings {
+  @apply font-headings;
+}

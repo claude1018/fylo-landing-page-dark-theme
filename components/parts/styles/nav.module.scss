@@ -1,0 +1,14 @@
+.nav {
+  @apply xs:h-16 py-5 px-4 pb-4 flex justify-between gap-4 bg-intro-email w-full md:px-12;
+  & .logo-container {
+    @apply w-[85px] md:w-[155px];
+    & .logo {
+      @apply cursor-pointer;
+    }
+  }
+  & .menu {
+    &-item {
+      @apply inline font-headings text-white text-[0.8125rem] cursor-pointer mx-2 md:text-[1rem];
+    }
+  }
+}

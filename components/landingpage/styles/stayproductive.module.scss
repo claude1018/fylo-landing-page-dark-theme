@@ -1,0 +1,20 @@
+.stay-productive {
+  @apply py-10 px-7 mt-20 mb-5 md:flex md:items-center md:gap-5 md:w-[85%];
+  & .image__wrapper {
+    @apply text-center;
+  }
+  & .descript__wrapper {
+    @apply md:w-[35%];
+  }
+  & .title {
+    @apply text-white font-headings font-bold py-3 mt-12 text-lg md:text-[2.2rem] md:leading-[3rem];
+  }
+
+  & p {
+    @apply text-white font-sans mb-3 text-[15px] font-normal md:text-sm;
+  }
+}
+
+.button-link {
+  @apply text-custom-cyan text-sm font-headings font-normal py-1 border-b-2 border-custom-cyan w-max flex justify-center items-center gap-1;
+}

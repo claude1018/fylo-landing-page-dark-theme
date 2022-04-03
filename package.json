@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-tailwind-scss-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "dom": "^0.0.3",
+    "next": "^12.1.4",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "sass": "^1.49.10",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.3"
+  }
+}

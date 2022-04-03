@@ -1,0 +1,46 @@
+.container {
+  @apply text-white text-sm px-5 pb-5 bg-footer pt-56 md:w-full md:pt-40 md:px-24;
+}
+
+.contact-wrapper {
+  @apply md:flex md:gap-12 py-0;
+
+  & .contact {
+    @apply flex items-center justify-items-start gap-5 pb-4 md:items-start md:justify-center;
+    & p {
+      @apply w-10/12 font-sans;
+    }
+  }
+}
+
+.links {
+  & > * {
+    @apply block font-sans text-sm mb-3;
+  }
+}
+
+.terms {
+  & > * {
+    @apply block font-sans text-sm mb-3;
+  }
+}
+
+.social {
+  @apply flex items-center justify-center gap-5 pt-7 md:pt-0 md:items-start;
+
+  & span {
+    @apply cursor-pointer;
+
+    & .s-icons {
+      @apply text-xl;
+    }
+  }
+}
+
+.row {
+  @apply flex flex-col gap-5 pt-7 md:flex-row md:align-top md:justify-between md:items-start;
+}
+
+.location {
+  @apply md:w-[20rem];
+}
