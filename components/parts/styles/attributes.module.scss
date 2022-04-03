@@ -1,0 +1,7 @@
+.attribution {
+  @apply text-white bg-footer w-full text-center text-xs pt-4 pb-2;
+
+  & a {
+    @apply text-custom-blue;
+  }
+}

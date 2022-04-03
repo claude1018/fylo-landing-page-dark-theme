@@ -3,6 +3,7 @@ import GettingStartedLayout from '../components/landingpage/layout/gettingstarte
 import IntroLayout from '../components/landingpage/layout/intro';
 import StayProductiveLayout from '../components/landingpage/layout/stayproductive';
 import TestimonialsLayout from '../components/landingpage/layout/testimonials';
+import AttributesLayout from '../components/parts/layout/attributes';
 import FooterLayout from '../components/parts/layout/footer';
 import NavLayout from '../components/parts/layout/nav';
 
@@ -16,6 +17,7 @@ const Home: React.FC<React.ReactNode> = () => {
       <TestimonialsLayout />
       <GettingStartedLayout />
       <FooterLayout />
+      <AttributesLayout />
     </div>
   );
 };
