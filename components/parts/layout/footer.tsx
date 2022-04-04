@@ -17,7 +17,7 @@ type ContactType = {
 
 const FooterLayout = () => {
   return (
-    <div className={styles.container}>
+    <footer className={styles.container}>
       <div>
         <Image src={logo} alt="logo" aria-hidden="true" />
       </div>
@@ -69,7 +69,7 @@ const FooterLayout = () => {
           </span>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

@@ -9,16 +9,18 @@ import NavLayout from '../components/parts/layout/nav';
 
 const Home: React.FC<React.ReactNode> = () => {
   return (
-    <div className="flex flex-col items-center overflow-hidden">
+    <>
       <NavLayout />
-      <IntroLayout />
-      <FeaturesLayout />
-      <StayProductiveLayout />
-      <TestimonialsLayout />
-      <GettingStartedLayout />
-      <FooterLayout />
-      <AttributesLayout />
-    </div>
+      <main className="flex flex-col items-center overflow-hidden">
+        <IntroLayout />
+        <FeaturesLayout />
+        <StayProductiveLayout />
+        <TestimonialsLayout />
+        <GettingStartedLayout />
+        <FooterLayout />
+        <AttributesLayout />
+      </main>
+    </>
   );
 };
 

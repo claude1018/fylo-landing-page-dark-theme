@@ -5,7 +5,7 @@ import logo from '../../../public/images/logo.svg';
 
 const NavLayout: React.FC<React.ReactNode> = () => {
   return (
-    <div className={styles.nav}>
+    <nav className={styles.nav}>
       <div className={styles['logo-container']}>
         <Link href="#home">
           <Image className={styles.logo} src={logo} objectFit="fill" />
@@ -22,7 +22,7 @@ const NavLayout: React.FC<React.ReactNode> = () => {
           <Link href="#sign-in">Sign In</Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
