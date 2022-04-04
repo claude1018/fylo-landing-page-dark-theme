@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-using-next-js-ts-rJ8mcPlm9)
-- Live Site URL: [Vercel](https://advice-generator-claude.vercel.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-Sk_hIhP7q)
+- Live Site URL: [Vercel](https://fylo-landing-page-dark-theme-claude.vercel.app/)
 
 ## My process
 
@@ -59,4 +59,3 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@claude1018](https://www.frontendmentor.io/profile/claude1018)
-
