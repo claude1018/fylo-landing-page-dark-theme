@@ -12,9 +12,9 @@ const IntroLayout: React.FC = () => {
           className="max-w-[46.875rem]"
         />
       </div>
-      <h2 className={styles.heading}>
+      <h1 className={styles.heading}>
         All your files in one secure location, accessible anywhere.
-      </h2>
+      </h1>
       <p className={styles.paragraph}>
         Fylo stores all your most important files in one secure location. Access
         them wherever you need, share and collaborate with friends family, and
