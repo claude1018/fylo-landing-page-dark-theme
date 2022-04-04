@@ -15,6 +15,11 @@ const Home: React.FC<React.ReactNode> = () => {
         <title>
           Frontend Mentor | Fylo landing page with dark theme and features grid
         </title>
+        <link
+          rel="shortcut icon"
+          href="/images/favicon-32x32.png"
+          type="image/x-icon"
+        />
       </Head>
       <NavLayout />
       <main className="flex flex-col items-center overflow-hidden">
