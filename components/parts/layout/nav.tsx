@@ -8,7 +8,13 @@ const NavLayout: React.FC<React.ReactNode> = () => {
     <nav className={styles.nav}>
       <div className={styles['logo-container']}>
         <Link href="#home">
-          <Image className={styles.logo} src={logo} objectFit="fill" />
+          <Image
+            className={styles.logo}
+            alt="logo"
+            aria-hidden="true"
+            src={logo}
+            objectFit="fill"
+          />
         </Link>
       </div>
       <ul className={styles.menu}>

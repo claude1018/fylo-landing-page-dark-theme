@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import FeaturesLayout from '../components/landingpage/layout/features';
 import GettingStartedLayout from '../components/landingpage/layout/gettingstarted';
 import IntroLayout from '../components/landingpage/layout/intro';
@@ -10,6 +11,11 @@ import NavLayout from '../components/parts/layout/nav';
 const Home: React.FC<React.ReactNode> = () => {
   return (
     <>
+      <Head>
+        <title>
+          Frontend Mentor | Fylo landing page with dark theme and features grid
+        </title>
+      </Head>
       <NavLayout />
       <main className="flex flex-col items-center overflow-hidden">
         <IntroLayout />
